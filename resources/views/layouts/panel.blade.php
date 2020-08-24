@@ -28,15 +28,13 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <!-- Brand -->
-      <a class="navbar-brand pt-0" href="/">
-        <img src="{{ asset('img/brand/blue.png') }}" class="navbar-brand-img" alt="...">
-      </a>
+      <a  href="{{ url('/') }}">
+         <img width="150" height="100" src="{{ asset('img/brand/logoandroid2.png') }}" />
+        </a>
       <!-- User -->
       <ul class="nav align-items-center d-md-none">
         <li class="nav-item dropdown">
-          <a class="nav-link nav-link-icon" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            <i class="ni ni-bell-55"></i>
-          </a>
+         
           <div class="dropdown-menu dropdown-menu-arrow dropdown-menu-right" aria-labelledby="navbar-default_dropdown_1">
             <a class="dropdown-item" href="#">Action</a>
             <a class="dropdown-item" href="#">Another action</a>
@@ -61,9 +59,10 @@
         <div class="navbar-collapse-header d-md-none">
           <div class="row">
             <div class="col-6 collapse-brand">
-              <a href="/">
-                <img src="{{ asset('img/brand/blue.png') }}">
-              </a>
+              <a  href="{{ url('/') }}">
+         <img  src="{{ asset('img/brand/logoandroid2.png') }}" />
+         <h4>Medical Appointments</h4>
+        </a>
             </div>
             <div class="col-6 collapse-close">
               <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#sidenav-collapse-main" aria-controls="sidenav-main" aria-expanded="false" aria-label="Toggle sidenav">
